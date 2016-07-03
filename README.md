@@ -5,7 +5,7 @@ Functions to take a NEC CAMS AMS measurement batch directory as input and scrape
 The run directories exist under a top level batch directory. Batch directories are named by staff as `batchXXXX` where the `X`s represent a four digit number assigned sequentially. The run directories are created automatically during measurement by the NEC AccelNet software. They are named `runNN.MM`, where `NN` is an item number (at least two digits, e.g. item 2 is 02, while item 124 is 124) assigned to each cathode in the runlist and `MM` is the measurement number (again, at least two digits, e.g. measurement 4 is 04). The structure is outlined below:
 
 batch1657
-* run00.01
+* run01.01
   + cntr
   + evt14C
   + gates
@@ -15,7 +15,7 @@ batch1657
   + le12C
   + le13C
   + setup
-* run01.01
+* run02.01
 * ...
 * run134.15
 
